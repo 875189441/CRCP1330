@@ -40,6 +40,101 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-147",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 175.5, 32.0, 150.0, 20.0 ],
+					"text" : "send bang when load"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-144",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 231.0, 363.0, 59.0, 20.0 ],
+					"text" : "multipul "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-142",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 484.0, 339.0, 92.0, 47.0 ],
+					"text" : "button for starting the composition"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-140",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 441.0, 49.0, 57.0, 20.0 ],
+					"text" : "function"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-136",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 479.0, 586.0, 59.0, 47.0 ],
+					"presentation_linecount" : 3,
+					"text" : "digital audio conberter"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-135",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 240.0, 166.0, 55.0, 33.0 ],
+					"presentation_linecount" : 2,
+					"text" : "sin wave object"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-134",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 240.0, 120.0, 55.0, 33.0 ],
+					"text" : "number object"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-132",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1276.0, 92.0, 150.0, 87.0 ],
+					"text" : "Programmer:Adam Wu\nDate:2020.2.1\ndescription: Create a 1-minute composition by  using additive synthesis techniques."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-128",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -325,7 +420,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 792.5, 840.0, 29.5, 22.0 ],
 					"text" : "50"
-				} 
+				}
 
 			}
 , 			{
